@@ -1,3 +1,0 @@
-# learn-js
-
-hello world
