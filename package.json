@@ -1,0 +1,22 @@
+{
+  "name": "learn-js",
+  "version": "1.0.0",
+  "description": "tasks from learn.javascript.ru",
+  "main": "",
+  "scripts": {
+    "format": "prettier --write ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bantamer/learn-js.git"
+  },
+  "author": "Petr Pazhitnykh <pazhitnykhpetr@gmail.com> (https://github.com/Bantamer)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bantamer/learn-js/issues"
+  },
+  "homepage": "https://github.com/bantamer/learn-js#readme",
+  "devDependencies": {
+    "prettier": "^2.2.1"
+  }
+}
