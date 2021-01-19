@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      function pow() {
+        return (result = x ** n);
+      }
+      let x = +prompt("Введите чилсло (x)", "");
+      let n = +prompt("Введите степнь (n)", "");
+      if (n < 1) {
+        alert(`Степень ${n} не поддерживается, введите натуральное число`);
+      } else {
+        alert(pow(x, n));
+      }
+    </script>
+  </body>
+</html>
