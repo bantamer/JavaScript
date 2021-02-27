@@ -4,6 +4,7 @@
   "description": "tasks from learn.javascript.ru",
   "main": "",
   "scripts": {
+    "lint": "eslint .",
     "format": "prettier --write ."
   },
   "repository": {
@@ -17,6 +18,8 @@
   },
   "homepage": "https://github.com/bantamer/learn-js#readme",
   "devDependencies": {
+    "eslint": "^7.18.0",
+    "eslint-config-prettier": "^7.2.0",
     "prettier": "^2.2.1"
   }
 }
